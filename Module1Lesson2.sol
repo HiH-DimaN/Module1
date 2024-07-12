@@ -17,7 +17,9 @@ contract Module1Lesson2 {
     } 
 
     function getBalance(address targetAddr) public view returns (uint) {
+        // Возвращаем баланс указанного адреса
         return targetAddr.balance;
     }
 
+    
 }

@@ -6,14 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "targetAddr",
-						"type": "address"
-					}
-				],
-				"name": "getBalance",
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "THREE_DAYS",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,26 +25,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "myAddr",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "payments",
+				"name": "TWO_WEEKS",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -57,28 +37,49 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "reciveFunds",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "targetAddr",
+						"name": "_newAddr",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
 					}
 				],
-				"name": "transferTo",
+				"name": "changeOwner",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkAndUpdateTimestamp",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timestamp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -95,7 +96,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"my-hardhat-project/practice telegram module 1/Module1Lesson2.sol": "Module1Lesson2"
+			"LessonGlobalVariablesAndConstructor.sol": "LessonGlobalVariablesAndConstructor"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -109,12 +110,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"my-hardhat-project/practice telegram module 1/Module1Lesson2.sol": {
-			"keccak256": "0x8d89c499db39ae63401291efb6bdddf989796429c6e77e0a741e4ed3558cd6c5",
-			"license": "MTI",
+		"LessonGlobalVariablesAndConstructor.sol": {
+			"keccak256": "0x7a8252d3c665361bf92873dc8ffca40ee874d274e364c356ca49156df1d1b711",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://de2cbdb3121a32c58646b9f7f1d9b604deffaab386321c16915a7d555b578071",
-				"dweb:/ipfs/QmTdTiKEbdNT7nXFKscDRKwDDmezo2L3ieR8B3mCLqP9Qt"
+				"bzz-raw://91623859dec93725c8238b1f090943b5586a0738f0c9d1b36033d769cd3c3cda",
+				"dweb:/ipfs/QmUZofckUfaWeyEM8KEdTPQgU29bCQgkW3KNT96NbCw17A"
 			]
 		}
 	},
