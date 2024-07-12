@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myAddr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "text",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"practice telegram module 1/Module1Lesson2-2.sol": "Module1Lesson2"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"practice telegram module 1/Module1Lesson2-2.sol": {
+			"keccak256": "0x7c68803b821879795b2e0881fed8c7df42c97dfebadc7c78f07fd46d0e964838",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4426df6a626d89a7417a6838e5bea6f76471a806c68e1912105680c4b7592847",
+				"dweb:/ipfs/QmZpwrvPdoffsDXKtVDqDzk8kxVgMyZXYwmzZbsUMdEPNX"
+			]
+		}
+	},
+	"version": 1
+}
